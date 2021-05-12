@@ -1,0 +1,21 @@
+
+
+Pradedant nauja projekta:
+1. npm ini -y
+2. npm i -D live-server
+3. scripts dalyje parasyti:
+3a. "dev": live-server --port=3000
+4. terminale parasyti:
+4a. npm run dev
+
+Atsisiuntus projekta (pvz is Github): 
+1. npm i
+2. npm run dev
+
+KAIP IŠVALYTI:
+1. npm cache clean --force
+2. rm -rf bode_modules pacjkage-loc.json
+3. npm i
+4. jei nesuveike:
+4a. nesuveike - kartoti is naujo (ziureti step 1)
+4b. suveike - npm run dev
